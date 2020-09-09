@@ -1,0 +1,355 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 780px;
+  position: absolute;
+  left: 800px;
+}
+
+
+
+
+.separator{
+  height: 125px;
+  margin-top:calc(125px * -1);
+  background-image: linear-gradient(to bottom right, transparent, transparent 50%, #f3efe4 50%, #f3efe4);
+  /* Using transparent for top of the gradient allows for a background image on the header. Alternatively you can just use a solid color that matches the header color. */
+}
+
+.footer{
+  background: #f3efe4;
+  bottom: 10px;
+  text-align: center;
+}
+
+
+.header2 {
+  position: relative;
+  height: 800px;
+  background-image: linear-gradient(#c034eb,#b248d9);
+}
+header {
+  position: relative;
+  height: 800px;
+  background-image: linear-gradient(#3b4b5c, #325e8a,#325e8a,#343a40);
+}
+
+h1 {
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+.home
+{
+  color: aqua;
+  background-color: blue;
+}
+.navbar-right .navbar-text {
+    color: black;
+}
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.bodyCustom {
+    font-size: 16px;
+    background-color: #2abdd4;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+.login-page{
+
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.login-page h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: lawngreen 6px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid  lawngreen ;
+
+}
+.textbox i{
+    color: white;
+    width: 26px;
+    float:left ;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+#btn{
+
+    width: 100%;
+    background: #192021;
+    border-radius: 18px;
+    color: #e9edf0;
+    font-size: 18px;
+    cursor: pointer;
+    height: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+#btn:hover{
+    background-color: #13445e;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fa {
+
+  font-size: 80px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 5px 2px;
+  size:10px;
+}
+.fa-youtube {
+color: red;
+
+}
+
+
+// Relevant styles
+.image-stack {
+  position: relative;
+  width: 100%;
+}
+
+.image-stack__item--bottom {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+  height: 70px;
+  width: 20px;
+  position: absolute;
+  bottom: 1000px;
+}
+
+.image-stack__item--top {
+
+  width: 1830px; // arbitrary value
+  height: 1300px;
+  position: absolute;
+  top: 1000px;
+  right: 0px;
+}
+
+.image-stack__item--middle {
+  padding-top: 20px; // arbitrary value
+  padding-right: 20%; // arbitrary value
+  width: 30%; // arbitrary value
+  size:100px;
+  height: 550px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  border-radius: 30px;
+  opacity: 3.8;
+  border-radius: 30px;
+}
+.RandomImg {
+  padding-top: 20px; // arbitrary value
+  padding-right: 20%; // arbitrary value
+  width: 30%; // arbitrary value
+  size:100px;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 350px;
+  right: 290px;
+  border-radius: 30px;
+  opacity: 1;
+  border-radius: 30px;
+}
+
+.RandomImg2 {
+  padding-top: 20px; // arbitrary value
+  padding-right: 20%; // arbitrary value
+  width: 30%; // arbitrary value
+  size:100px;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 450px;
+  right: 20px;
+  border-radius: 30px;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.footer-copyright text-center py-3
+{
+  position: absolute;
+
+}
+.card
+{
+  box-shadow: 12px 12px 7px #262211;
+  border-radius: 20px;
+}
+.bodyMade {
+    font-size: 16px;
+    background-color: #2abdd4;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+.login-page2{
+
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:;
+}
+.login-page2 h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: lawngreen 6px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid  lawngreen ;
+
+}
+.textbox2 i{
+    color: white;
+    width: 26px;
+    float:left ;
+    text-align: center;
+}
+.textbox2 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+#btn2{
+  width: 100%;
+  background: #192021;
+  border-radius: 18px;
+  color: #e9edf0;
+  font-size: 18px;
+  cursor: pointer;
+  height: 75px;
+  font-family: 'Roboto', sans-serif;
+}
+#btn2:hover{
+  background-color: #13445e;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button_cont
+{
+   position: absolute;
+   top: 600px;
+   color: white;
+   background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+   border: none;
+   border-radius: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 5px;
+}
+example_f {
+   border-radius: 4px;
+   background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+   border: none;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 5px;
+ }
+ .example_f span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+ .example_f span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .example_f:hover span {
+   padding-right: 25px;
+ }
+ .example_f:hover span:after {
+   opacity: 1;
+   right: 0;
+ }

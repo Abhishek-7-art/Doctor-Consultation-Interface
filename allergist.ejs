@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <body>
+    <div class="BOX">
+      <% for(let i=0;i<found.length; i++) {%>
+
+  <div class="card">
+    <h3><%=found[i].name %></h3>
+
+    <a href="<%=found[i].content %>">Connect</a>
+  </div>
+<%}%>
+</div>
+
+
+    <form class="" action="/allergist" method="post">
+      <input type="password" name="Password" value="">
+      <input type="text" name="newPerson"  value="" placeholder="Name">
+      <input type="text" name="aboutPerson" value="" placeholder="Content">
+      <button type="submit" name="button"></button>
+    </form>
+<form class="" action="/allergist" method="post">
+  <input type="password" name="RemovalPassword" value="">
+  <input type="text" name="RemovePerson" value="" placeholder="Enter name to be removed!">
+  <button type="submit" name="buttonToRemove"></button>
+
+</form>
+
+  </body>
+</html>

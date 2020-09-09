@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <style media="screen">
+    .secret-text {
+text-align: center;
+font-size: 2rem;
+color: #fff;
+background-color: #000;
+}
+
+    </style>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Secrets</h1>
+    <p class="secret-text">Store Your data here!</p>
+
+    <form action="/Add" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secretId" placeholder="Patient Id">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secretName" placeholder="Patient Name">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secretSymptom" placeholder="Patient Symptoms">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secretMed" placeholder="Medication Prescribed">
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+    <div class="BOX">
+      <% for(let i=0;i<found.length; i++) {%>
+
+  <div class="card">
+    <h3><%=found[i].patientName %></h3>
+    <p><%=found[i].patientMedication %></p>
+
+  </div>
+<%}%>
+<p class="secret-text">Added to Database</p>
+</div>
+
+
+  </div>
+</div>
+</body>
+</html>
